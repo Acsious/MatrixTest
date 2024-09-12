@@ -10,7 +10,9 @@ int main()
 	A.setMatrix(Matrix::createRandMatrix(matrixSize, 0, 100));
 	B.setMatrix(Matrix::createRandMatrix(matrixSize, 0, 100));
 
-	Matrix::matrixMultiplication(A, B);
-	Matrix::matrixSummary(A, B);
+	A.printMatrix();
+	B.printMatrix();
+	Matrix::matrixMultiplication(A, B).printMatrix();
+	Matrix::matrixSummary(A, B).printMatrix();
 }
 

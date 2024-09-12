@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include <vector>
 #include <cstdlib>
 #include <ctime>
@@ -15,4 +16,5 @@ public:
 	static Matrix matrixSummary(Matrix firstMatrix, Matrix secondMatrix);
 	static Matrix matrixMultiplication(Matrix firstMatrix, Matrix secondMatrix);
 	void setMatrix(Matrix newMatrix);
+	void printMatrix();
 };

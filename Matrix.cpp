@@ -62,3 +62,16 @@ void Matrix::setMatrix(Matrix newMatrix)
 		}
 	}
 }
+
+void Matrix::printMatrix()
+{
+	for (int i = 0; i < matrixSize; ++i)
+	{
+		for (int j = 0; j < matrixSize; ++j)
+		{
+			cout << matrix[i][j] << " ";
+		}
+		cout << endl;
+	}
+	cout << endl;
+}
