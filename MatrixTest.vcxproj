@@ -130,10 +130,12 @@
     <ClCompile Include="Converter.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="RNSOperations.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Converter.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="RNSOperations.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

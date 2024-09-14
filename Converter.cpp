@@ -1,4 +1,4 @@
-#include "Converter.h"9
+#include "Converter.h"
 
 Matrix Converter::intToMatrix(unsigned int value, vector<int> modules)
 {

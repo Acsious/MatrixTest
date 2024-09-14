@@ -24,12 +24,18 @@
     <ClCompile Include="Converter.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="RNSOperations.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Converter.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="RNSOperations.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

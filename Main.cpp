@@ -1,5 +1,6 @@
 ﻿#include "Matrix.h"
 #include "Converter.h"
+#include "RNSOperations.h"
 
 int main()
 {
@@ -15,9 +16,13 @@ int main()
 	B.printMatrix();
 	
 	Matrix::matrixMultiplication(A, B).printMatrix();
-	Matrix::matrixSummary(A, B).printMatrix();*/
+	Matrix::matrixSummary(A, B).printMatrix();
 
 	Converter::intToMatrix(52, { 3,5,7 });
-	Converter::matrixToInt(Matrix({ 1,2,3 }), { 3,5,7 });
+	Converter::matrixToInt(Matrix({ 1,2,3 }), { 3,5,7 });*/
+
+	RNSOperations::addition(Matrix({ 1,0,4 }), Matrix({ 0,2,4 }), { 2,3,5 });
+	RNSOperations::mutiplication(Matrix({ 0,1,4 }), Matrix({ 1,2,0 }), { 2,3,5 });
+
 }
 
