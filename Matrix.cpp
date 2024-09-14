@@ -10,6 +10,12 @@ Matrix::Matrix(int n)
 	}
 }
 
+Matrix::Matrix(vector<int> value)
+{
+	matrixSize = value.capacity();
+	matrix.push_back(value);
+}
+
 Matrix Matrix::createRandMatrix(int size, int min, int max)
 {
 	Matrix result(size);
@@ -61,6 +67,11 @@ void Matrix::setMatrix(Matrix newMatrix)
 			matrix[i][j] = newMatrix.matrix[i][j];
 		}
 	}
+}
+
+vector<vector<int>> Matrix::getMatrix()
+{
+	return matrix;
 }
 
 void Matrix::printMatrix()
